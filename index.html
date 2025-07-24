@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laldli Palace Guest House - Luxury Stay Experience</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Laldli Palace</h2>
+                <span>Guest House</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#rooms" class="nav-link">Rooms</a></li>
+                <li><a href="#amenities" class="nav-link">Amenities</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Laldli Palace Guest House</h1>
+            <p>Experience royal hospitality in the heart of luxury and comfort</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="scrollToSection('rooms')">Book Now</button>
+                <button class="btn-secondary" onclick="scrollToSection('gallery')">View Gallery</button>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Laldli Palace</h2>
+                <p>A heritage of hospitality</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Royal Heritage & Modern Comfort</h3>
+                    <p>Nestled in a serene location, Laldli Palace Guest House combines traditional architecture with modern amenities. Our establishment has been welcoming guests for over two decades, offering an authentic experience of royal hospitality.</p>
+                    <p>With spacious rooms, beautiful gardens, and personalized service, we ensure every guest feels like royalty. Our commitment to excellence and attention to detail makes us the preferred choice for discerning travelers.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-crown"></i>
+                            <span>Royal Treatment</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-wifi"></i>
+                            <span>Free WiFi</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-car"></i>
+                            <span>Free Parking</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>24/7 Service</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/lp_exterior.png" alt="Laldli Palace Exterior" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Rooms</h2>
+                <p>Comfort and luxury in every detail</p>
+            </div>
+            <div class="rooms-grid">
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="images/Delux.webp" alt="Deluxe Room">
+                        <div class="room-price">₹1,500/night (Negotiable)</div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Deluxe Room</h3>
+                        <p>Spacious room with modern amenities and garden view</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-bed"></i> Queen Size Bed</li>
+                            <!-- <li><i class="fas fa-tv"></i> Smart TV</li> -->
+                            <li><i class="fas fa-snowflake"></i> AC</li>
+                            <li><i class="fas fa-bath"></i> Private Bathroom</li>
+                        </ul>
+                        <button class="btn-primary">Book Now</button>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="images/Delux_1.webp" alt="Suite Room">
+                        <div class="room-price">₹2,500/night (Negotiable)</div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Royal Suite</h3>
+                        <p>Luxurious suite with separate living area and balcony</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-users"></i> Sleeps upto 5</li>
+                            <li><i class="fas fa-bed"></i> King Size Bed</li>
+                            <li><i class="fas fa-couch"></i> Living Area</li>
+                            <li><i class="fas fa-balcony"></i> Balcony</li>
+                            <!-- <li><i class="fas fa-coffee"></i> Mini Bar</li> -->
+                        </ul>
+                        <button class="btn-primary">Book Now</button>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="images/Super_Delux.webp" alt="Family Room">
+                        <div class="room-price">₹3,000/night (Negotiable)</div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Family Room</h3>
+                        <p>Perfect for families with connecting rooms and extra space</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-users"></i> Sleeps 4-5</li>
+                            <li><i class="fas fa-door-open"></i> Connecting Rooms</li>
+                            <li><i class="fas fa-balcony"></i> Balcony</li>
+                        </ul>
+                        <button class="btn-primary">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities">
+        <div class="container">
+            <div class="section-header">
+                <h2>Amenities</h2>
+                <p>Everything you need for a perfect stay</p>
+            </div>
+            <div class="amenities-grid">
+                <div class="amenity-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Restaurant</h3>
+                    <p>Multi-cuisine restaurant serving authentic local and international dishes</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-swimming-pool"></i>
+                    <h3>Swimming Pool</h3>
+                    <p>Outdoor swimming pool with poolside service and comfortable loungers</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Spa & Wellness</h3>
+                    <p>Rejuvenating spa treatments and wellness center for ultimate relaxation</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Fitness Center</h3>
+                    <p>Well-equipped gym with modern equipment and personal training available</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-concierge-bell"></i>
+                    <h3>Concierge</h3>
+                    <p>24/7 concierge service to assist with bookings and local recommendations</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-car-side"></i>
+                    <h3>Airport Transfer</h3>
+                    <p>Complimentary airport pickup and drop-off service for our guests</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Photo Gallery</h2>
+                <p>Glimpses of our beautiful property</p>
+            </div>
+            
+            <!-- Photo Upload Section -->
+            <div class="upload-section">
+                <h3>Share Your Experience</h3>
+                <p>Upload your photos from your stay at Laldli Palace</p>
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-content">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>Drag and drop photos here or <span class="upload-link">click to browse</span></p>
+                        <input type="file" id="photoInput" multiple accept="image/*" style="display: none;">
+                    </div>
+                </div>
+                <div class="upload-preview" id="uploadPreview"></div>
+                <button id="uploadBtn" class="btn-primary" style="display: none;">Upload Photos</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Pre-loaded gallery images -->
+                <div class="gallery-item">
+                    <img src="images/gallery/exterior-1.jpg" alt="Palace Exterior View">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/pool-1.jpg" alt="Swimming Pool">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/restaurant-1.jpg" alt="Restaurant Interior">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/garden-1.jpg" alt="Palace Gardens">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/lobby-1.jpg" alt="Lobby Area">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/suite-1.jpg" alt="Royal Suite">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Modal -->
+            <div id="galleryModal" class="gallery-modal">
+                <span class="gallery-close">&times;</span>
+                <img class="gallery-modal-content" id="modalImage">
+                <div class="gallery-nav">
+                    <button id="prevBtn" class="gallery-nav-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button id="nextBtn" class="gallery-nav-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch for reservations and inquiries</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Ladli Palace Guest House<br>Barsana, Mathura<br>Uttar Pradesh 281405</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 88518 69322<br>+91 70429 38173</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>ladlipalace.barsana@gmail.com<br>ladlipalace.barsana@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Check-in / Check-out</h3>
+                            <p>Check-in: 2:00 PM<br>Check-out: 11:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm" action="https://formspree.io/f/xblkgvkg" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" name="subject" required>
+                                <option value="">Select Subject</option>
+                                <option value="reservation">Room Reservation</option>
+                                <option value="inquiry">General Inquiry</option>
+                                <option value="event">Event Booking</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <input type="hidden" name="_next" value="https://YOUR_GITHUB_USERNAME.github.io/ladlipalace-website/thank-you.html">
+                        <input type="hidden" name="_subject" value="New inquiry from Laldli Palace website">
+                        <input type="hidden" name="_replyto" value="email">
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Laldli Palace Guest House</h3>
+                    <p>Experience the perfect blend of traditional hospitality and modern comfort at our heritage guest house.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#amenities">Amenities</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Room Service</li>
+                        <li>Airport Transfer</li>
+                        <li>Laundry Service</li>
+                        <li>Tour Packages</li>
+                        <li>Event Hosting</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +91 88518 69322</p>
+                        <p><i class="fas fa-envelope"></i> ladlipalace.barsana@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Barsana, Mathura (281405)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Laldli Palace Guest House. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/gallery.js"></script>
+</body>
+</html>
